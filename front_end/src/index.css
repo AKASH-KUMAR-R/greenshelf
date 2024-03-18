@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: white;
+}
+.main-login-section {
+    width: 100%;
+    height: 100vh;
+}
+
+.login {
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.338);
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #292929;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+.custom-file-upload:hover {
+    background-color: #000407;
+  }
+  
+.custom-file-upload input[type="file"] {
+    display: none;
+} 
+
+.custom-file-upload:active{
+  scale: 0.95; 
+  background-color: #343434;
+ }
+ 
+ .contribute-section {
+
+    border: 2px solid black;
+    height: fit-content;
+ }
+ 
+ .button-config:hover{
+
+  scale: 1.05;
+ }
+
+ .button-config:active {
+  scale: 1;
+ }
+
+ .text {
+  max-height: calc(2 * 1.2em); 
+  line-height: 1.2em; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+ }
